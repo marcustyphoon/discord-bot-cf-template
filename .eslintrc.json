@@ -1,0 +1,13 @@
+{
+  "env": {
+    "serviceworker": true,
+    "es2022": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-unused-vars": ["warn", { "args": "none" }]
+  }
+}

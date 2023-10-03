@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-cf-template",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "wrangler dev src/server.js",
+    "ngrok": "ngrok http 8787",
+    "deploy": "wrangler deploy",
+    "test": "npm run eslint && npm run prettier",
+    "eslint": "eslint src",
+    "prettier": "prettier src --check"
+  },
+  "dependencies": {
+    "@discordcf/framework": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "ngrok": "^5.0.0-beta.2",
+    "prettier": "^3.0.0",
+    "wrangler": "^3.0.1"
+  }
+}

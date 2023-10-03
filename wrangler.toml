@@ -1,0 +1,3 @@
+name = "discord-bot-cf-template"
+main = "./src/server.js"
+compatibility_date="2023-07-24"
